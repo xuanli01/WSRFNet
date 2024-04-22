@@ -30,19 +30,10 @@ The download of the datasets can be found [here](https://github.com/CVIU-CSU/M2M
 │       └── image
  ```
 
-### Method 2
-
-You can directly use our processed test sets by unpacking the compressed files in the folder 'test_dataset' into 'test_set'.
- 
-```base
-zip -s 0 test_dataset/test_set.zip --out test_set.zip
-unzip test_set.zip
-```
 
 ## Inference
 We use the same evaluation code as the ['Automated lesion segmentation in fundus images with many-to-many reassembly of features'](https://github.com/CVIU-CSU/M2MRF-Lesion-Segmentation) to evaluate the predicted segmentation maps.
 
-We ensemble the aboved evaluation code into our code.
 
 ### IDRID
 
