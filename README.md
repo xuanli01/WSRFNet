@@ -16,9 +16,9 @@ You can refer to the work  ['Automated lesion segmentation in fundus images with
 
 The download of the datasets can be found [here](https://github.com/CVIU-CSU/M2MRF-Lesion-Segmentation#results-and-models).
 
- The preparation of the datasets can be found [here](https://github.com/CVIU-CSU/M2MRF-Lesion-Segmentation#training-and-testing). 
+The preparation of the datasets can be found [here](https://github.com/CVIU-CSU/M2MRF-Lesion-Segmentation#training-and-testing). 
 
- Then, reorganize the file structure of the test sets as follows and put the 'test_set' in the root directory of the code file.
+Then, reorganize the file structure of the test sets as follows and put the 'test_set' in the root directory of the code file.
 
  ```bash
 ├── test_set
